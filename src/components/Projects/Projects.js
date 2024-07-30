@@ -84,7 +84,7 @@ function Projects() {
               title="News App"
               description="A simple yet effective web application built with HTML, CSS, and JavaScript. It provides users with up-to-date news articles from various sources, featuring an intuitive design and easy navigation. Perfect for staying informed on current events with a clean and responsive interface."
               ghLink="https://github.com/anandkr369/News-app"
-
+              demoLink="https://news-app36.netlify.app"
             />
           </Col>
         </Row>
