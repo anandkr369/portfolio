@@ -8,6 +8,7 @@ import jobPortal from "../../Assets/Projects/jobPortal.png";
 import bookStore from "../../Assets/Projects/bookStore.png";
 import furniture from "../../Assets/Projects/furniture.png";
 import colorimg from "../../Assets/Projects/colorImg.png";
+import todo from "../../Assets/Projects/todo.png";
 
 function Projects() {
   return (
@@ -26,7 +27,7 @@ function Projects() {
               imgPath={bookStore}
               isBlog={false}
               title="Book Store"
-              description="Developed a dynamic and responsive webpage using MongoDB for the database.Utilized Node.js and Express.js for backend and React.js for front-end development, along with third-party API integration for AI support. Implemented user authentication and authorization to ensure secure access to the website's features including private-routing for accessingdata by admin only. All CRUD operation can be performed.Conducted extensive testing and debugging to ensure the application was robust and error-free.Designed and implemented user-friendly interfaces, enhancing user experience."
+              description="Developed a dynamic and responsive webpage using MongoDB for the database. Utilized Node.js and Express.js for the backend and React.js for front-end development, along with third-party API integration for AI support. Implemented user authentication and authorization to ensure secure access to the website's features, including private routing for admin-only data access. All CRUD operations can be performed. Conducted extensive testing and debugging to ensure the application was robust and error-free. Designed and implemented user-friendly interfaces, enhancing the user experience."
               ghLink="https://github.com/anandkr369/bookStore"
               demoLink="https://bookstore0.netlify.app/"
             />
@@ -37,7 +38,7 @@ function Projects() {
               imgPath={colorimg}
               isBlog={false}
               title="Generate Color"
-              description="Explore my project, Generate-color, a fun and interactive application where you can choose colors generated randomly by the computer. The project is designed to make the experience feel like a game, providing endless color possibilities at the click of a button."
+              description="Explore Generate-Color, a fun, interactive app that lets you discover randomly generated colors with a simple click. Designed like a game, it offers endless color combinations for designers, developers, or anyone seeking inspiration. You can lock and save your favorite colors to create custom palettes, making it a perfect tool for creativity. Built with **React.js**, the application is fully responsive and delivers a smooth, fast user experience across all devices. Its clean, minimal interface keeps the focus on colors, making exploration both engaging and easy."
               ghLink="https://github.com/anandkr369/chooseColor"
               demoLink="https://choose-color-sigma.vercel.app/"
             />
@@ -48,9 +49,9 @@ function Projects() {
               imgPath={jobPortal}
               isBlog={false}
               title="Job Portal"
-              description="This project enables you to post and apply for any job. Jobs are stored in dummy local storage where each users job application is stored seperatly. Each user can login/signup with their unique credentials. Concept of MERN technology is used to build this project."
+              description="This project allows users to post and apply for jobs, with each job and application stored in local storage. Users can sign up or log in with unique credentials, ensuring personalized access to their job applications. Built using the **MERN** stack (MongoDB, Express, React, and Node.js), the project provides a smooth user experience and demonstrates full-stack development capabilities. While jobs are stored in dummy local storage for simplicity, the app showcases the fundamental structure and features of a job portal, including authentication and user-specific data handling."
               ghLink="https://github.com/anandkr369/summer-pep-mern"
-              demoLink="https://github.com/anandkr369/summer-pep-mern/"
+              demoLink="https://internship001.netlify.app/"
             />
           </Col>
 
@@ -60,7 +61,7 @@ function Projects() {
               imgPath={furniture}
               isBlog={false}
               title="Furniture Website"
-              description="Explor, A sleek and modern furniture website showcasing a wide range of stylish pieces. Designed for a seamless browsing experience, it highlights both functionality and aesthetic appeal. Discover your next favorite furniture item with ease."
+              description="**Explor** is a sleek, modern furniture website showcasing a curated collection of stylish and functional pieces. Designed for an effortless browsing experience, the site combines aesthetic appeal with user-friendly navigation, making it easy to discover your next favorite furniture item. Whether you're looking for contemporary, minimalist designs or classic styles, **Explor** offers a wide range of options to suit every taste. The responsive design ensures that users can explore products seamlessly on any device, providing a visually pleasing and enjoyable shopping experience from start to finish."
               ghLink="https://github.com/anandkr369/furniture"
               demoLink="https://furniture-0.netlify.app/"
             />
@@ -71,7 +72,7 @@ function Projects() {
               imgPath={currencyconv}
               isBlog={false}
               title="Currency convertor"
-              description="A user-friendly application for converting currencies in real-time. With an intuitive interface, it allows you to easily convert between various currencies and view up-to-date exchange rates. Ideal for travelers and finance enthusiasts, it provides accurate conversion data at your fingertips."
+              description="This user-friendly application offers real-time currency conversion with an intuitive interface, allowing you to easily switch between various currencies. Whether you're a traveler needing quick conversions or a finance enthusiast tracking exchange rates, the app provides up-to-date and accurate data at your fingertips. The sleek design ensures effortless navigation, making it simple to input amounts and receive instant conversions. With support for multiple currencies and real-time rate updates, this app is an ideal tool for anyone needing fast, reliable currency information on the go, from casual users to professionals."
               ghLink="https://github.com/anandkr369/currency-converter-React"
               demoLink="https://currencyconvertortarun.netlify.app/"
             />
@@ -82,11 +83,23 @@ function Projects() {
               imgPath={newApp}
               isBlog={false}
               title="News App"
-              description="A simple yet effective web application built with HTML, CSS, and JavaScript. It provides users with up-to-date news articles from various sources, featuring an intuitive design and easy navigation. Perfect for staying informed on current events with a clean and responsive interface."
+              description="This simple yet effective web application, built with **HTML, CSS, and JavaScript**, delivers up-to-date news articles from various sources. With its clean, responsive interface, users can easily stay informed on current events, enjoying a seamless experience across devices. The intuitive design and easy navigation make it simple to browse through articles on topics of interest, whether local or global. Whether you're catching up on breaking news or exploring in-depth stories, this application ensures quick access to reliable information, providing a convenient, user-friendly platform for news enthusiasts."
               ghLink="https://github.com/anandkr369/News-app"
               demoLink="https://news-app36.netlify.app"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todo}
+              isBlog={false}
+              title="Todo List(Redux)"
+              description="This To-Do List web application, built with React and Redux, allows users to efficiently manage tasks while performing full CRUD operations—add, edit, delete, and mark tasks as complete. The app saves tasks to local storage, ensuring that your data is preserved even after refreshing the page. Its responsive design provides a smooth and consistent experience across all devices. With state management powered by Redux, the application is fast, scalable, and easy to use, offering an intuitive way to organize your tasks and boost productivity."
+              ghLink="https://github.com/anandkr369/todoRedux"
+              demoLink="https://todoredux1.netlify.app/"
+            />
+          </Col>
+          
         </Row>
       </Container>
     </Container>
