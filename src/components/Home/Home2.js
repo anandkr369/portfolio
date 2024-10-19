@@ -27,6 +27,8 @@ function Home2() {
                 <b className="purple"> Java, Javascript, MERN Technologies. </b>
               </i>
               <br />
+              <br /> I have basic knowledge of Spring Boot (Java Framework).
+              <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
