@@ -95,7 +95,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 href="https://anandkr369.netlify.app/"
-                target="_blank"
                 rel="noreferrer"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
