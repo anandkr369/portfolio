@@ -29,7 +29,7 @@ function Projects() {
               title="Book Store"
               description="Developed a dynamic and responsive webpage using MongoDB for the database. Utilized Node.js and Express.js for the backend and React.js for front-end development, along with third-party API integration for AI support. Implemented user authentication and authorization to ensure secure access to the website's features, including private routing for admin-only data access. All CRUD operations can be performed. Conducted extensive testing and debugging to ensure the application was robust and error-free. Designed and implemented user-friendly interfaces, enhancing the user experience."
               ghLink="https://github.com/anandkr369/bookStore"
-              demoLink="https://bookstore0.netlify.app/"
+              demoLink="http://book-store0.vercel.app/"
             />
           </Col>
 
